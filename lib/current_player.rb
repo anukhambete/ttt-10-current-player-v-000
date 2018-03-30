@@ -9,3 +9,5 @@ board.each do |i|
 end
   counter
 end
+
+def current_player
