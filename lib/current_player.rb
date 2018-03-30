@@ -10,4 +10,12 @@ end
   counter
 end
 
-def current_player
+def current_player(board)
+  i = turn_count(board)
+  if i % 2 == 0
+    cp = "X"
+  else
+    cp = "O"
+  end
+  cp
+end
